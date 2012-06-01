@@ -1,0 +1,171 @@
+Expériences¶
+    2010–2010: 4 mois
+    Reponsable TIC (stage) pour Jstar Global Inc., Taizhōng Taiwan.
+    Environnement anglo-chinois, poursuite et fin du site web. Introduction de nouvelles pratiques (ingénierie sociale) et technologies (standards web).
+
+    2010–2010: 1 mois
+    Prof. de Français en Freelance, Taizhōng Taiwan.
+    Cours particuliers à des étudiants Chinois.
+
+    2010–2010: 1 mois
+    Assistant de Langue pour NCHU, Taizhōng Taiwan.
+    Collaboration avec l'enseignante du département de Français.
+
+    2009–2009: 2 mois
+    Étude sur la Fouille d'Information (stage) dans l'équipe AMA de l'UJF, Grenoble, France.
+    Étude des mouvements oculaires lors d'une tâche de fouille d'information.
+
+    2008–2008: 3 mois
+    Tutorat Informatique pour Bdx II, Bordeaux, France.
+    Tutorat SGBD & Info-Math pour les étudiants de 1re année.
+
+    2007–2007: 1 mois
+    Accessibilité Web (stage) pour i2C, France.
+    Étude du cadre légal et technique de l'e-accessibilité.
+
+    2006–2006: 1 mois
+    Prof. de Français pour Zhengzhou n° 47 Middle School, Chine.
+    Cours d'été à des lycéens Chinois, débutants en Français.
+
+
+Formation¶
+    2008–2010: 2 ans
+    Master d'Ingénierie de la Communication Personne-Système
+    ICPS à l'Université Pierre Mendès-France (UPMF), Grenoble, France.
+
+    2005–2008: 3 ans
+    Licence de Sciences Cognitives
+    SciCo à l'Université Victor Segalen (Bdx II), Bordeaux, France.
+
+    2004–2005: 1 an
+    Bac Scientifique, Spécialité Mathématiques
+    au Lycée Sud des Landes, France.
+
+
+Compétences¶
+    Sciences Cognitives:
+        Psychologie Cognitive, Neurosciences, IHM, IA, ACP, Statistiques.
+    Programmation:
+        PHP, Python, ActionScript, AWK, Android, Bash, C, Delphi, Java EE, JavaScript, Perl.
+    Modélisation:
+        UML, ERM.
+    Standards Web:
+        AJAX, CSS 2.1, WCAG (1.0 & Samurai errata), RSS, SVG, SMIL, (X)HTML 1.0 strict, XML, XSL(T), XUL.
+    SGBD:
+        SQL, MySQL, phpMyAdmin, Access. Serveur Apache, SFTP.
+    OS:
+        Linux: *Ubuntu, Gentoo, OpenSuSE, Mandriva?, Windows: 95, 98, XP, 7, VirtualBox.
+    Calcul:
+        Scilab, Maple, Matlab, R.
+    Graphisme:
+        The Gimp, Inkscape, Photoshop.
+    Bureautique:
+        LaTeX, OpenOffice, Microsoft Office, C2i.
+
+
+Langues¶
+    Français
+        Langue maternelle.
+    Anglais
+        Courant,
+        TOEIC: 965 (2010).
+    Espagnol
+        Compétence limitée.
+    Chinois
+        Notions,
+        Travail d'été en Chine,
+        Stage à Taïwan.
+    Japonais
+        Notions.
+
+
+Temps libres¶
+Sports:
+    Plongée, VTT.
+
+Voyages:
+    Taïwan (2010), Japon (2010), Espagne (2008), Chine (2006), Taïwan (2004).
+    
+Lectures:
+    Articles scientifiques, Actualités mondiales, BD, Manga, Histoire et Civilisation du Japon et de la Chine.
+
+Divers:
+    Cinéma, Photographie.
+
+
+Projets¶
+    2010–2010: en cours
+    Dictionnaire Chinois-Français en Freelance,
+    CFDICT contient environ 4 000 entrées, sous licence Creative Commons by-nc-sa.
+
+    2009–2010: 2 mois
+    Démonstration de GWT pour UPMF,
+    AniMaths met en œuvre les technologies web modernes, telles que (X)HTML, Java, JavaScript, MathML, etc. (voir la démo).
+
+    2009–2010: 2 mois
+    Visualiseur de Graphes Sociaux pour UPMF,
+    FlashBook aide à visualiser les relations d'un groupe (décrites avec XML). Développé avec Adobe Flash® et ActionScript.
+
+    2009–2009: 2 mois
+    Étude des Mouvements Oculaires dans l'équipe AMA de l'UJF,
+    Stage de Master 1 avec Perl, pour modéliser les mouvements oculaires lors d'une tâche de fouille d'information.
+
+    2009–2009: 1 mois
+    Internationalisation et Ré-écriture d'URL pour UPMF,
+    Projet web pour me familiariser avec les fonctions gettext de PHP pour l'i18n, et la ré-écriture d'URLs Apache.
+
+    2009–2009: 1 mois
+    Analyse de l'Existant et Maquette pour UPMF,
+    Conception et maquettage (avec XUL) pour la plate-forme d’interprétariat humain à distance ERIM.
+
+    2009–2009: 1 mois
+    Projet de Génie Logiciel pour UPMF,
+    Carville est un projet d'équipe de mise en pratique d'UML.
+
+    2009–2009: 1 mois
+    Analyse de l'UX de Google Docs pour UPMF,
+    gDocs : analyse de l'eXpérience Utilisateur suivant les critères de Bastien-Scapin, pour le cours IHM.
+
+    2009–2009: 1 mois
+    PPT: Visual Impairment And Web Accessibility pour UPMF,
+    Présentation sur l'e-accessibilité pour le cours d'Anglais.
+
+    2008–2008: 1 mois
+    PPT: Wikipedia As A Complex System pour UPMF,
+    Présentation sur Wikipédia pour le cours Systèmes Complexes.
+
+    2008–2008: 1 mois
+    Jeu et Solveur Basé sur l'Algorithme A* pour UPMF,
+    Tic-tac-toe développé en Python pour le cours d'Intelligence Artificielle.
+
+    2008–2008: 1 mois
+    Collaboration avec l'ENSC pour UPMF,
+    Moteur de recherche multicritères pour la base de données des projets étudiants.
+
+    2008–2008: 1 mois
+    Algorithme de Colonies de Fourmis pour UPMF,
+    Résolution du problème du voyageur de commerce avec un ACF, implémenté en PHP.
+
+    2008–2008: 4 mois
+    TER de Fin de Licence pour Bdx II,
+    Étude et développement sur la Reconnaissance des Expressions Faciales, avec Python et Scilab.
+
+    2007–2007: 1 mois
+    Jeu de Plateau en C++ pour Bdx II,
+    Jeu Xothello pour le cours d'Introduction au langage C/C++.
+
+    2007–2007: 1 mois
+    Gadget Moniteur Système ,
+    Superlight est un widget pour l'environnement de bureau KDE.
+
+
+
+Nice summary attribute sample: summary="The rows contain XYZ; the columns contain ABC" http://juicystudio.com/article/purpose-of-the-summary-attribute.php#comment5 #a11y
+
+
+– Génie logiciel et systèmes d'information,
+– Interaction Homme-Machine,
+– Langages et technologies du Web,
+– TALN et apprentissage des langues,
+– Plates-formes pour le développement Web,
+– Développement web mobile.

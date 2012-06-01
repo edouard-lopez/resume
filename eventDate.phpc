@@ -1,0 +1,98 @@
+<?php
+
+class eventDate
+{
+  private $YEAR = 0;
+  private $MONTH = 0;
+  private $DAY = 0;
+  private $HOUR = 0;
+  private $MINUTE = 0;
+  private $SECOND = 0;
+  private $DATE = null;
+
+
+  function setYear($value)
+    { $this->YEAR = $value; }
+  function getYear()
+    { return $this->YEAR; }
+  function setMonth($value)
+    { $this->MONTH = $value; }
+  function getMonth()
+    { return $this->MONTH; }
+  function setDay($value)
+    { $this->DAY = $value; }
+  function getDay()
+    { return $this->DAY; }
+  function setHour($value)
+    { $this->HOUR = $value; }
+  function getHour()
+    { return $this->HOUR; }
+  function setMinute($value)
+    { $this->MINUTE = $value; }
+  function getMinute()
+    { return $this->MINUTE; }
+  function setSecond($value)
+    { $this->SECOND = $value; }
+  function getSecond()
+    { return $this->SECOND; }
+
+  function resetDate()
+  {
+    $this->YEAR(0);
+    $this->MONTH(0);
+    $this->DAY(0);
+    $this->HOUR(0);
+    $this->MINUTE(0);
+    $this->SECOND(0);
+  }
+
+  function strToDate($str)
+  {
+    $YYYYMMDD = '([\d]{4})-?([\d]{2})?-?([\d]{2})?';
+    $HHMMSS = '(([\d]{2}):?([\d]{2}):?([\d]{2}))?';
+    preg_match_all('!'.$YYYYMMDD.$HHMMSS.'!', $str, $matches, PREG_PATTERN_ORDER );
+
+    var_dump($matches);
+    $i = 0;
+    $this->setYear(@$matches[0][$i]);
+    $this->setMonth(@$matches[0][$i+1]);
+    $this->setDay(@$matches[0][$i+2]);
+    $this->setHour(@$matches[0][$i+3]);
+    $this->setMinute(@$matches[0][$i+4]);
+    $this->setSecond(@$matches[0][$i+5]);
+
+//     if ($matches[0][0])
+//       { $this->setYear($matches[0][0]); }
+//     if ($matches[0][1])
+//       { $this->setMonth($matches[0][1]); }
+//     if ($matches[0][2])
+//       { $this->setDay($matches[0][2]); }
+//     if ($matches[0][3])
+//       { $this->setHour($matches[0][3]); }
+//     if ($matches[0][4])
+//       { $this->setMinute($matches[0][4]); }
+//     if ($matches[0][5])
+//       { $this->setSecond($matches[0][5]); }
+  }
+  static function dateToString()
+    { }
+
+// function format() {
+//       $this->getDate()->format('Y-m-d');
+// }
+
+function setDate($value)
+  { $this->DATE = $value; }
+function getDate()
+{
+  return $this->DATE;
+}
+
+  function __construct($date)
+  {
+    $this->setDate(new eventDate('1900-01-01'));
+    $this->strToDate($date);
+  }
+
+}
+?>
