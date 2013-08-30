@@ -19,7 +19,11 @@
         'cog' => $me->_cv('Cognition, Teaching'),
         'dev'    =>  $me->_cv('Programming'),
         'i18n'   =>  $me->_cv('Languages, Abroad'),
-        'ux'      =>  sprintf('%s, %s', $me->_cv('Accessibility'), sprintf('<abbr title="%s">UX</abbr>', $me->_cv('User eXperience'))),
+        'ux'      => sprintf('%s, %s',
+                        sprintf('<abbr title="%s">UX</abbr>',
+                            $me->_cv('User eXperience')
+                        ), $me->_cv('Accessibility')
+                    ),
         'web'   =>  $me->_cv('Web'),
     ));
   require_once 'abbr.php';
