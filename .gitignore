@@ -1,3 +1,8 @@
+_files/icons_themes/
+_files/weird-format/
+*.ttf
+/.metadata
 *.pdf
+/.settings
 .directory
-
+*~
