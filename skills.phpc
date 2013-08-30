@@ -90,6 +90,7 @@ class skill extends dd
   {// item 1 is start date, item 2 is end date
     $result = null;
     $periodSeparator = ', ';
+    $skillTerminator = '&thinsp;; ';
     $periodTerminator = '&thinsp;; ';
 
     if ( is_array($activePeriod[0]) )
@@ -115,7 +116,7 @@ class skill extends dd
       $result .= sprintf("%s%s", $this->setPeriod($activePeriod), $periodSeparator);
     }
 
-    return $result;
+    return $skillTerminator.$result;
   }
 
   function buildOutput($content = null)
@@ -139,7 +140,7 @@ class skill extends dd
 //     facetlist = (array of) facet attributes
 //     activePeriod = (array of) active period for this skill
 //     level = skill proficiency from 1 to 5
-  function __construct($label = "[missing label]", $facetlist = null, $activePeriod = null, $level = -1)
+  function __construct($label = "[missing label]", $facetlist = null, $activePeriod = null, $level = -1, $last = false)
   {
     // DEBUGAGE
     $this->DEBUG = new toolbox();
@@ -149,15 +150,24 @@ class skill extends dd
     $skill = new dd();
       $skill->setClass( implode(' ', $facetlist) );
       // Skill name/label used as a tag
-      $skill->addChild( $this->addSkillProperty('tag', $label, sprintf("%s&nbsp;: ", $label) ) );
-      // set all active periods for the skill
-      $skill->addChild( $this->setActivePeriod($activePeriod) );
-      // typo: {space}STRING{non-breakable-Space}{comma}{space}
-      $skill->addChild( $this->addSkillProperty('', null, sprintf('%s&nbsp;: ', _cv('level')) ));
-      // Level/Profieciency in skill
-      $skill->addChild( $this->addSkillProperty('level', $level, $level, 'meter') );
+      $skill->addChild( $this->addSkillProperty('tag', $label, sprintf("%s", $label) ) );
+
+    $skillDetail = new detail();
+        $skillDetail->setClass('skill-detail');
+        // set all active periods for the skill
+        $skillDetail->addChild( $this->setActivePeriod($activePeriod) );
+        // typo: {space}STRING{non-breakable-Space}{comma}{space}
+        $skillDetail->addChild( $this->addSkillProperty('label', null, sprintf('%s&nbsp;: ', _cv('level')) ));
+        // Level/Profieciency in skill
+        $skillDetail->addChild( $this->addSkillProperty('level', $level, $level, 'meter') );
 
 // var_dump($skill->buildOutput());
+    if ($last) {
+        $skill->addChild( $skillDetail->buildOutput() .'.');
+    } else {
+        $skill->addChild( $skillDetail->buildOutput() .', ');
+    }
+
     $this->setOutput($skill->buildOutput());
 
     return $skill->buildOutput();

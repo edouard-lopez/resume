@@ -6,6 +6,22 @@ class html5 extends html
   { }
 }
 
+// detail – term or name
+// http://www.w3.org/TR/html-markup/dt.html
+class detail extends html5
+{
+  protected $TAG = 'detail';
+
+  function __construct($content = null)
+  {
+    if (!is_null($content))
+    {
+      $this->setContent($content);
+      $this->setId(strtolower(str_replace(' ', '-', $content)));
+    }
+  }
+}
+
 
 // meter - scalar gauge
 // http://dev.w3.org/html5/markup/meter.html
@@ -62,4 +78,3 @@ class meter extends html5
 
 }
 
-?>
