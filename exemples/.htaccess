@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Password Required. Ask me to get an invitation."
-# AuthBasicProvider file
-AuthUserFile /mnt/data/Server/passwords
-Require valid-user
