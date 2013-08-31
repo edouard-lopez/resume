@@ -1,3 +1,10 @@
+node_modules
+dist
+.tmp
+.sass-cache
+app/bower_components
+
+
 _files/icons_themes/
 _files/weird-format/
 *.ttf
