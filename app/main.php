@@ -3,9 +3,9 @@
    $user = 'ed'; // needed for quick-menu
 
   require_once 'cv.phpc';
+  $me = new CV();
   require_once 'abbr.php';
 
-    $me = new CV();
 //   require_once 'user.phpc';
     $me->setFirstName('Édouard');
     $me->setLastName('Lopez');
