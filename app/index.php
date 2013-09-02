@@ -13,8 +13,8 @@
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
         <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- build:js scripts/vendor/bootstrap.min.js -->
+        <script src="bower_components/sass-bootstrap/dist/js/bootstrap.min.js"></script>
         <!-- endbuild -->
     </head>
     <body>
@@ -22,15 +22,48 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
+                <?php require_once 'navbar.php'; ?>
+        <div class="container">
+            <div class="header">
 
-        <div class="hero-unit">
-          <h1>'PHP, 'PHP!</h1>
-          <p>You now have</p>
-          <ul>
-            <li>HTML5 Boilerplate</li>
-            <li>Modernizr</li>
-            <li>RequireJS</li>
-          </ul>
+                <!-- <ul class="nav nav-pills pull-right">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <h3 class="text-muted">cv</h3> -->
+            </div>
+
+            <?php require_once 'main.php'; ?>
+<!--             <div class="jumbotron">
+                <h1>'Allo, 'Allo!</h1>
+                <p class="lead">Always a pleasure scaffolding your apps.</p>
+                <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
+            </div>
+
+            <div class="row marketing">
+                <div class="col-lg-6">
+                    <h4>HTML5 Boilerplate</h4>
+                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+
+                    <h4>Bootstrap</h4>
+                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+
+                    <h4>Modernizr</h4>
+                    <p>Modernizr is an open-source JavaScript library that helps you build the next generation of HTML5 and CSS3-powered websites.</p>
+
+
+                    <h4>RequireJS</h4>
+                    <p>RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node.</p>
+
+                </div>
+            </div> -->
+
+            <div class="footer">
+                <?php require_once 'footer.html'; ?>
+                <!-- <p>♥ from the Yeoman team</p> -->
+            </div>
+
         </div>
 
 
