@@ -3,8 +3,8 @@ dist
 .tmp
 .sass-cache
 app/bower_components
-
-
+id_photo/
+lettres-motivations/
 _files/icons_themes/
 _files/weird-format/
 *.ttf
@@ -13,7 +13,5 @@ _files/weird-format/
 /.settings
 .directory
 *~
-id_photo/
-lettres de motivations/*
-lettres de motivations/.favicon.png
-
+Gruntfile.js.vanilla
+*.bak
