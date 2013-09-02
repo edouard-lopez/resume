@@ -53,7 +53,13 @@ module.exports = function (grunt) {
                     '.tmp/styles/{,*/}*.css',
                     '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-                ]
+                ],
+            },
+            copyPhp: {
+                files: [
+                    '<%= yeoman.app %>/*.{php,phpc}'
+                ],
+                tasks: ['copy:php']
             }
         },
         connect: {
@@ -321,6 +327,16 @@ module.exports = function (grunt) {
                 cwd: '<%= yeoman.app %>/styles',
                 dest: '.tmp/styles/',
                 src: '{,*/}*.css'
+            php: {
+                files: [{
+                    expand: true,
+                    dot: true,
+                    cwd: '<%= yeoman.app %>',
+                    dest: '<%= yeoman.dist %>',
+                    src: [
+                        '*.{php,phpc}',
+                    ]
+                }]
             }
         },
         modernizr: {
@@ -347,6 +363,8 @@ module.exports = function (grunt) {
                 'coffee',
                 'compass',
                 'copy:styles',
+                'copy:resources',
+                'copy:php',
                 'imagemin',
                 'svgmin',
                 'htmlmin'
@@ -390,13 +408,15 @@ module.exports = function (grunt) {
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
-        'requirejs',
+        // 'requirejs',
         'concat',
         'cssmin',
         'uglify',
-        'modernizr',
-        'copy:dist',
-        'rev',
+        // 'modernizr',
+        'copy',
+        // 'copy:dist',
+        // 'copy:php',
+        // 'rev',
         'usemin'
     ]);
 
