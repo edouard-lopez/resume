@@ -2,9 +2,15 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 @import 'sass-bootstrap/lib/bootstrap';
 
-.breadcrumb {
-    background-color: inherit;
+
+/*nav navbar-nav
+{
     display: inline-block;
+    float: left;
+}*/
+
+.dropdown > .navbar-brand {
+    font-size: $font-size-base;
 }
 
 .browsehappy {
