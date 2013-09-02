@@ -322,11 +322,14 @@ module.exports = function (grunt) {
                 }]
             },
             styles: {
-                expand: true,
-                dot: true,
-                cwd: '<%= yeoman.app %>/styles',
-                dest: '.tmp/styles/',
-                src: '{,*/}*.css'
+                files: [{
+                    expand: true,
+                    dot: true,
+                    cwd: '<%= yeoman.app %>/styles',
+                    dest: '.tmp/styles/',
+                    src: '{,*/}*.css'
+                }]
+            },
             php: {
                 files: [{
                     expand: true,
