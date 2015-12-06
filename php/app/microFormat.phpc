@@ -1,0 +1,32 @@
+<?php
+require_once 'html.phpc';
+
+class microFormat extends html
+{
+
+  function __construct()
+  {
+  }
+}
+
+// Question mark after an item
+// <sup class="what">%s</sup>
+class whatThis extends microFormat
+{
+  PROTECTED $TAG = 'sup';
+
+  function buildOutput($content = null) {
+    $a = new a($this->getContent(), $this->getHref());
+    return parent::buildOutput($a->buildOutput());
+  }
+
+  function __construct($href = null, $content = '?')
+  {
+    $this->setClass('what');
+    $this->setContent($content);
+    if (!is_null($href))
+      { $this->setHref($href); }
+  }
+}
+
+//

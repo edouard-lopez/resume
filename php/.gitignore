@@ -1,0 +1,17 @@
+node_modules
+dist
+.tmp
+.sass-cache
+app/bower_components
+id_photo/
+lettres-motivations/
+_files/icons_themes/
+_files/weird-format/
+*.ttf
+/.metadata
+*.pdf
+/.settings
+.directory
+*~
+Gruntfile.js.vanilla
+*.bak

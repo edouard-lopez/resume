@@ -1,0 +1,14 @@
+/* TEAM */
+Your title: Édouard Lopez.
+Site: contact@edouard-lopez.com.
+Twitter: @edouard_lopez.
+Location: Bordeaux, France.
+
+/* THANKS */
+Name: ...
+
+/* SITE */
+Last update: 2015/MM/DD
+Standards: HTML5, CSS3.
+Components: AngularJS, Semantic-UI.
+

@@ -1,0 +1,53 @@
+<?php
+require_once 'toolbox.phpc';
+
+class skillLevel extends toolbox
+{
+  protected $LEVEL = -1;
+  private $DEBUG = null;
+  private $SCALE_MIN = 1;
+  private $SCALE_MAX = 3;
+
+
+  function addScale($class = null, $title = null, $content = null)
+  {
+    $result = null;
+
+    for ($i = $this->SCALE_MIN; $i <= $this->SCALE_MAX; $i++)
+    {
+      $tag = ($i != $this->getLevel()) ? 'del' : 'span';
+
+      $scale = new $tag();
+        $scale->setClass('level-'.$i);
+        $content = ($i != $this->getLevel()) ? $i : sprintf('<img src="./_files/images/level-%1$s.png" alt="%s %1$s" />', $i, _('level'));
+        $scale->setContent($content);
+//         $scale->setContent(sprintf('<img src="./_files/images/level-%1$s.png" alt="%s %1$s" />', $i, _('level')) );
+      $result .= $scale->buildOutput();
+    }
+
+//     $this->DEBUG->dump( $result );
+    return $result;
+  }
+
+
+  function __construct($level = null)
+  {
+//     $this->dump($level);
+    $this->DEBUG = new toolbox();
+
+    if ( !is_null($level) )
+    {
+      $this->setLevel($level);
+    }
+  }
+
+// ACCESSOR
+  function setLevel($value)
+    { $this->LEVEL = $value; }
+  function getLevel()
+    { return $this->LEVEL; }
+
+}
+
+
+?>
