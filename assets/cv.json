@@ -1,0 +1,46 @@
+{
+    "user": {
+        "username": "ed",
+        "first-name": "Édouard",
+        "last-name": "Lopez",
+        "email": "cv+me@edouard-lopez.com"
+    },
+    "metadata": {
+        "tags": [
+            {
+                "tag": "cog",
+                "description": "Cognition, Teaching"
+            },
+            {
+                "tag": "dev",
+                "description": "Programming"
+            },
+            {
+                "tag": "i18n",
+                "description": "Languages, Abroad"
+            },
+            {
+                "tag": "ux",
+                "description": "User eXperience"
+            },
+            {
+                "tag": "web",
+                "description": "Accessibility"
+            }
+        ],
+        "thesaurus": [
+            {
+                "abbr": "abbr",
+                "def": "abbreviation"
+            }
+        ]
+    },
+    "cv": {
+        "keywords": [
+            "Développement Web",
+            "Ergonomie",
+            "Architecture de l'Information"
+        ],
+        "motto":  "reasons to hire me."
+    }
+}

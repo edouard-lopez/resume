@@ -26,7 +26,35 @@
     your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<!-- Add your site or application content here -->
-<p>Édouard Lopez' résumé</p>
+<article id="resume" class="hresume">
+    <div class="overview">
+        <dl id="qck-name">
+            <dt class="h">{{ _cv("user-name") }}</dt>
+            <dd><h1 id="name" class="id fn n">
+                <span class="given-name">{{ user.first-name }}</span>
+                <span class="family-name">{{ user.last-name }}</span>
+            </h1>
+            </dd>
+        </dl>
+
+        <section id="summary" class="headline title">
+            <div class="floatFix">
+                <ul id="keywords">
+                    <li>
+                        <strong>{{ cv.keywords[1] }}</strong>,
+                    </li>
+                    <li><strong>{{ cv.keywords[2] }}</strong>
+                        &amp; </li>
+                    <li>
+                        <strong>{{ cv.keywords[3] }}</strong>
+                    </li>
+                </ul>
+                <div class="motivation">
+                    {{ cv.motto }}
+                </div>
+            </div>
+        </section>
+    </div>
+</article>
 </body>
 </html>
