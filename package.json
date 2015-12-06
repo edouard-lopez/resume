@@ -1,0 +1,19 @@
+{
+  "name": "cv",
+  "version": "2.0.0",
+  "description": "résumé/cv of Édouard Lopez",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.edouard-lopez.com:822/root/cv.git"
+  },
+  "keywords": [
+    "résumé",
+    "cv"
+  ],
+  "author": "contact@edouard-lopez.com",
+  "license": "MIT"
+}
