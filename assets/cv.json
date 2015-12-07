@@ -1,9 +1,17 @@
 {
     "user": {
-        "username": "ed",
         "first-name": "Édouard",
         "last-name": "Lopez",
-        "email": "cv+me@edouard-lopez.com"
+        "contact": {
+            "email": "cv+me@edouard-lopez.com",
+            "phone-mobile": "+33(0).760.069.730",
+            "twitter": "@edouard_lopez",
+            "www": "http://edouard-lopez.com/"
+        },
+        "nationality": "French",
+        "driving-license": true,
+        "birthdate": 1985,
+        "address": "Bordeaux, France"
     },
     "metadata": {
         "tags": [
@@ -41,6 +49,611 @@
             "Ergonomie",
             "Architecture de l'Information"
         ],
-        "motto":  "reasons to hire me."
+        "motto": "reasons to hire me.",
+        "technical_skills": [],
+        "spoken_languages": [
+            {
+                "name": "French",
+                "level": "native"
+            },
+            {
+                "name": "English",
+                "level": "fluent",
+                "diploma": "TOEIC 965/990 (2010)"
+            },
+            {
+                "name": "Spanish",
+                "level": "basic"
+            },
+            {
+                "name": "Chinese",
+                "level": "notion"
+            },
+            {
+                "name": "Japanese",
+                "level": "notion"
+            },
+            {
+                "name": "Italian",
+                "level": "notion"
+            }
+        ],
+        "experiences": [
+            {
+                "org": {
+                    "title": "cv.xp.title.ajlsm",
+                    "org-summary": "cv.org.name%s AJLSM",
+                    "location": "cv.org.place%s BDX"
+                },
+                "description": [
+                    "Développement d'applications %s/%s de gestion et de publication de documents %s J2EE, XSL_T, XML",
+                    "Administration de serveurs %s et %s (%s avancés) DEBIAN, CENTOS, BASH",
+                    "Gestion de projets&thinsp;: %s, %s et %s GIT, SVN, REDMINE",
+                    "Capitalisation des savoir-faire (%s, %s) MEDIAWIKI, XMIND"
+                ],
+                "period": {
+                    "start": "2011-10-03",
+                    "end": "2013-03-29"
+                },
+                "categories": [
+                    "web",
+                    "i18n"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.xp.title00%s",
+                    "org-summary": "cv.org.self-employed%s",
+                    "location": "cv.org.place%s Aquitaine, France"
+                },
+                "description": "cv.xp.desc00%s SEO",
+                "period": {
+                    "start": "2011-01-24",
+                    "end": "2011-10-03"
+                },
+                "dfn": "web-consultant-freelance",
+                "categories": [
+                    "dev",
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.xp.title01%s IT",
+                    "org-summary": "cv.org.name%s JSTARGLOBAL",
+                    "location": "cv.org.place%s TAIZHONG"
+                },
+                "description": "cv.xp.desc01",
+                "period": {
+                    "start": "2010-04-01",
+                    "end": "2010-08-07"
+                },
+                "dfn": "internship-taiwan",
+                "categories": [
+                    "web",
+                    "i18n"
+                ]
+            },
+            {
+                "org": {
+                    "title": "%s cv.xp.title02",
+                    "org-summary": "cv.org.freelance",
+                    "location": "cv.org.place%s TAIZHONG"
+                },
+                "description": "cv.xp.desc02",
+                "period": {
+                    "start": "2010-07-15",
+                    "end": "2010-08-15"
+                },
+                "categories": [
+                    "i18n"
+                ]
+            },
+            {
+                "org": {
+                    "title": "%s cv.xp.title03",
+                    "org-summary": "cv.org.name%s NCHU",
+                    "location": "cv.org.place%s TAIZHONG"
+                },
+                "description": "cv.xp.desc03",
+                "period": {
+                    "start": "2010-06-01",
+                    "end": "2010-07-10"
+                },
+                "categories": [
+                    "cog",
+                    "i18n"
+                ]
+            },
+            {
+                "org": {
+                    "title": "%s cv.xp.title04",
+                    "org-summary": "cv.org.team%s AMA",
+                    "location": "cv.org.place%s GRENOBLE"
+                },
+                "description": "cv.xp.desc04",
+                "period": {
+                    "start": "2009-05-01",
+                    "end": "2009-07-01"
+                },
+                "categories": [
+                    "cog",
+                    "dev",
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.xp.title05",
+                    "org-summary": "cv.org.name%s BDX2_URL",
+                    "location": "cv.org.place%s BDX"
+                },
+                "description": "cv.xp.desc05%s DBMS",
+                "period": {
+                    "start": "2008-02-01",
+                    "end": "2008-05-01"
+                },
+                "categories": [
+                    "cog",
+                    "dev"
+                ]
+            },
+            {
+                "org": {
+                    "title": "%s cv.xp.title06",
+                    "org-summary": "cv.org.name%s <a href='http://www.i2c.fr/'>i2C</a>",
+                    "location": "cv.org.place%s France"
+                },
+                "description": "cv.xp.desc06",
+                "period": {
+                    "start": "2007-08-01",
+                    "end": "2007-09-01"
+                },
+                "categories": [
+                    "ux"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.xp.title07",
+                    "org-summary": "cv.org.name%s ZHENGZHOU",
+                    "location": "cv.org.place%s China"
+                },
+                "description": "cv.xp.desc07",
+                "period": {
+                    "start": "2006-07-01",
+                    "end": "2006-08-15"
+                },
+                "dfn": "summer-job-zhengzhou",
+                "categories": [
+                    "cog",
+                    "i18n"
+                ]
+            }
+        ],
+        "educations": [
+            {
+                "org": {
+                    "title": "cv.edu.title01%s%s MASTER_ICPS, ICPS",
+                    "org-summary": "cv.org.name.at%s UPMF_XPAND_URL",
+                    "location": "cv.org.place%s GRENOBLE"
+                },
+                "description": null,
+                "period": {
+                    "start": "2008-09-22",
+                    "end": "2010-09-22"
+                },
+                "categories": [
+                    "cog",
+                    "dev",
+                    "i18n",
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.edu.title02%s%s LICENCE_SCICO, SCICO",
+                    "org-summary": "cv.org.name.at%s BDX2_XPAND_URL",
+                    "location": "cv.org.place%s BDX"
+                },
+                "description": null,
+                "period": {
+                    "start": "2005-09-15",
+                    "end": "2008-07-01"
+                },
+                "categories": [
+                    "cog",
+                    "dev",
+                    "i18n",
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.edu.title03%s BAC_S",
+                    "org-summary": "cv.org.name.ats%s TYR",
+                    "location": "cv.org.place%s France"
+                },
+                "description": null,
+                "period": {
+                    "start": "2004-07-10",
+                    "end": "2005-07-14"
+                },
+                "categories": [
+                    "cog"
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "org": {
+                    "title": "cv.proj.probe",
+                    "org-summary": "cv.org.collaboration:personal",
+                    "location": null
+                },
+                "description": "cv.proj.desc.probe%s%s%s D3js, CI, PROBE_METEO_COM",
+                "period": {
+                    "start": "2012-10-31",
+                    // fixme
+                    "end": "2014-05"
+                },
+                "categories": [
+                    "dev",
+                    "i18n",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title01",
+                    "org-summary": "cv.org.collaboration:personal",
+                    "location": null
+                },
+                "description": "cv.proj.desc01%s%s CFDICT_URL, CC_BY_NC_SA",
+                "period": {
+                    "start": "2010-07-01",
+                    // fixme
+                    "end": "TODAY"
+                },
+                "categories": [
+                    "cog",
+                    "dev",
+                    "i18n",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title02%s GWT",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc02%s%s%s%s%s%s%s <a href='http://code.google.com/p/animaths/'>AniMaths</a>, X_HTML, JAVA, JS, MATHML, ETC, http://applicationanimaths.appspot.com/",
+                "period": {
+                    "start": "2009-12-01",
+                    "end": "2010-02-01"
+                },
+                "categories": [
+                    "cog",
+                    "dev",
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title03",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc03%s%s <a href='/portfolio/2010-flashbook/'>FlashBook</a> XML",
+                "period": {
+                    "start": "2009-12-01",
+                    "end": "2010-02-01"
+                },
+                "categories": [
+                    "dev",
+                    "ux"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title04",
+                    "org-summary": "cv.org.team%s AMA",
+                    "location": null
+                },
+                "description": "cv.proj.desc04%s%s%s%s <a href='/portfolio/2009-TER-ProjetEYE-LSA/'>', '</a>', Perl, 'http://webu2.upmf-grenoble.fr/LPNC/resources/benoit_lemaire/cogsci09a.pdf",
+                "period": {
+                    "start": "2009-05-01",
+                    "end": "2009-07-01"
+                },
+                "categories": [
+                    "cog",
+                    "dev",
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title05%s",
+                    //URL},
+                    "org-summary": "cv.org.name%s",
+                    //UPMF},
+                    "location": null
+                },
+                "description": "cv.proj.desc05%s%s%s%s%s%s <a href='/portfolio/2009-mastermind/'> PHP %s rewriting URL",
+                "period": {
+                    "start": "2009-03-01",
+                    "end": "2009-04-01"
+                },
+                "categories": [
+                    "dev",
+                    "i18n",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title06",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc06%s%s%s%s <a href='/portfolio/2009-Interface-Utilisateur-ERIM-3.0/'>', XUL, '</a>', ERIM}",
+                "period": {
+                    "start": "2009-03-01",
+                    "end": "2009-04-01"
+                },
+                "categories": [
+                    "dev",
+                    "ux"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title07",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc07%s%s%s <a href='/portfolio/2009-Carville/'> UML",
+                "period": {
+                    "start": "2009-02-01",
+                    "end": "2009-03-10"
+                },
+                "categories": [
+                    "dev"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title08%s UX",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc08%s%s%s%s <a href='/portfolio/2009-Google-docs-criteres-Bastien-Scapin/'>, GDOCS, HCI %s, using Bastien-Scapin criteria, for the %s class",
+                "period": {
+                    "start": "2009-02-01",
+                    "end": "2009-03-10"
+                },
+                "categories": [
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title09%s PPT",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc09%s%s <a href='/portfolio/2009-Visual-Impairment-And-Web-Accessibility/'>",
+                "period": {
+                    "start": "2009-02-01",
+                    "end": "2009-03-10"
+                },
+                "categories": [
+                    "cog",
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title10%s PPT",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc10%s%s <a href='/portfolio/2008-Wikipedia-As-A-Complex-System/'>",
+                "period": {
+                    "start": "2008-11-30",
+                    "end": "2008-12-31"
+                },
+                "categories": [
+                    "cog",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title11%s Astar",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc11%s%s <a href='/portfolio/2008-Fifteen-Puzzle/'>%s</a> 15-puzzle IA_XPAND_URL",
+                "period": {
+                    "start": "2008-11-30",
+                    "end": "2008-12-31"
+                },
+                "categories": [
+                    "cog",
+                    "dev"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title12%s ENSC",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc12%s %sMulti-criteria search engine%s for students' projectss database <a href='/portfolio/2008-projet_ue116/'>",
+                "period": {
+                    "start": "2008-11-01",
+                    "end": "2008-12-10"
+                },
+                "categories": [
+                    "dev",
+                    "ux",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title13%s Ant Colony Optimization",
+                    "org-summary": "cv.org.name%s UPMF",
+                    "location": null
+                },
+                "description": "cv.proj.desc13%s%s%s <a href='/portfolio/2008-smANTS/'>%s</a> Traveling Salesman Problem, ACO, PHP",
+                "period": {
+                    "start": "2008-11-01",
+                    "end": "2008-12-10"
+                },
+                "categories": [
+                    "cog",
+                    "dev"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title14",
+                    "org-summary": "cv.org.name%s BDX2",
+                    "location": null
+                },
+                "description": "cv.proj.desc14%s%s%s%s <a href='/portfolio/2008-ter_scico/'>, Python, SCILAB Study and application development with Python and Scilab.",
+                "period": {
+                    "start": "2008-07-01",
+                    "end": "2008-03-01"
+                },
+                "categories": [
+                    "cog",
+                    "dev",
+                    "web"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title15%s CPP",
+                    "org-summary": "cv.org.name%s BDX2",
+                    "location": null
+                },
+                "description": "cv.proj.desc15%s%s%s%s <a href='/portfolio/2007-othello/'>, C, CPP",
+                "period": {
+                    "start": "2007-02-01",
+                    "end": "2007-03-10"
+                },
+                "categories": [
+                    "dev"
+                ]
+            },
+            {
+                "org": {
+                    "title": "cv.proj.title16",
+                    "org-summary": null,
+                    "location": null
+                },
+                "description": "cv.proj.desc16%s <a href='/portfolio/2007-superlight/'>%s</a>Superlight",
+                "period": {
+                    "start": "2007-05-01",
+                    "end": "2007-06-01"
+                },
+                "categories": [
+                    "dev",
+                    "ux"
+                ]
+            }
+        ],
+        "spare_time": {
+            "sports": [
+                "Surf",
+                "Underwater diving",
+                "Biking",
+                "Waveboard",
+                "Snowboard"
+            ],
+            "travels": [
+                {
+                    "place": "NEW_ZEALAND",
+                    "date": [
+                        2015
+                    ]
+                },
+                {
+                    "place": "USA",
+                    "date": [
+                        2014,
+                        2013
+                    ]
+                },
+                {
+                    "place": "AMSTERDAM",
+                    "date": [
+                        2013
+                    ]
+                },
+                {
+                    "place": "LONDON",
+                    "date": [
+                        2012
+                    ]
+                },
+                {
+                    "place": "Taiwan",
+                    "date": [
+                        2011,
+                        2010,
+                        2004
+                    ]
+                },
+                {
+                    "place": "Vietnam",
+                    "date": [
+                        2011
+                    ]
+                },
+                {
+                    "place": "Japan",
+                    "date": [
+                        2010
+                    ]
+                },
+                {
+                    "place": "Spain",
+                    "date": [
+                        2008
+                    ]
+                },
+                {
+                    "place": "China",
+                    "date": [
+                        2006
+                    ]
+                }
+            ],
+            "readings": [
+                "Sciences' news",
+                "World's' news",
+                "Comic books",
+                "History and Civilization of Japan"
+            ],
+            "community": [
+                "Wikipédia",
+                "Coding gouter",
+                "Collectif Giroll",
+                "Django Girls"
+            ]
+        }
     }
 }
