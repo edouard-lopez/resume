@@ -4,7 +4,9 @@
   "description": "résumé/cv of Édouard Lopez",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:style": "node-sass assets/styles/0-start.scss dist/styles/all.css",
+    "watch:style": "node-sass -w assets/styles/0-start.scss dist/styles/all.css"
   },
   "repository": {
     "type": "git",
