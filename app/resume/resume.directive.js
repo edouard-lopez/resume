@@ -8,7 +8,7 @@
     function resume() {
         return {
             scope: {},
-            templateUrl: "/static/templates/resume/resume.html",
+            templateUrl: "app/resume/resume.html",
             controller: resumeController,
             controllerAs: 'vm'
         }

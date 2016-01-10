@@ -1,15 +1,16 @@
 {
     "user": {
-        "first-name": "Édouard",
-        "last-name": "Lopez",
+        "username": "Édouard",
+        "first_name": "Édouard",
+        "last_name": "Lopez",
         "contact": {
             "email": "cv+me@edouard-lopez.com",
-            "phone-mobile": "+33(0).760.069.730",
+            "phone_mobile": "+33(0).760.069.730",
             "twitter": "@edouard_lopez",
             "www": "http://edouard-lopez.com/"
         },
         "nationality": "French",
-        "driving-license": true,
+        "driving_license": true,
         "birthdate": 1985,
         "address": "Bordeaux, France"
     },
@@ -82,7 +83,7 @@
             {
                 "org": {
                     "title": "cv.xp.title.ajlsm",
-                    "org-summary": "cv.org.name%s AJLSM",
+                    "org_summary": "cv.org.name%s AJLSM",
                     "location": "cv.org.place%s BDX"
                 },
                 "description": [
@@ -103,7 +104,7 @@
             {
                 "org": {
                     "title": "cv.xp.title00%s",
-                    "org-summary": "cv.org.self-employed%s",
+                    "org_summary": "cv.org.self-employed%s",
                     "location": "cv.org.place%s Aquitaine, France"
                 },
                 "description": "cv.xp.desc00%s SEO",
@@ -121,7 +122,7 @@
             {
                 "org": {
                     "title": "cv.xp.title01%s IT",
-                    "org-summary": "cv.org.name%s JSTARGLOBAL",
+                    "org_summary": "cv.org.name%s JSTARGLOBAL",
                     "location": "cv.org.place%s TAIZHONG"
                 },
                 "description": "cv.xp.desc01",
@@ -138,7 +139,7 @@
             {
                 "org": {
                     "title": "%s cv.xp.title02",
-                    "org-summary": "cv.org.freelance",
+                    "org_summary": "cv.org.freelance",
                     "location": "cv.org.place%s TAIZHONG"
                 },
                 "description": "cv.xp.desc02",
@@ -153,7 +154,7 @@
             {
                 "org": {
                     "title": "%s cv.xp.title03",
-                    "org-summary": "cv.org.name%s NCHU",
+                    "org_summary": "cv.org.name%s NCHU",
                     "location": "cv.org.place%s TAIZHONG"
                 },
                 "description": "cv.xp.desc03",
@@ -169,7 +170,7 @@
             {
                 "org": {
                     "title": "%s cv.xp.title04",
-                    "org-summary": "cv.org.team%s AMA",
+                    "org_summary": "cv.org.team%s AMA",
                     "location": "cv.org.place%s GRENOBLE"
                 },
                 "description": "cv.xp.desc04",
@@ -187,7 +188,7 @@
             {
                 "org": {
                     "title": "cv.xp.title05",
-                    "org-summary": "cv.org.name%s BDX2_URL",
+                    "org_summary": "cv.org.name%s BDX2_URL",
                     "location": "cv.org.place%s BDX"
                 },
                 "description": "cv.xp.desc05%s DBMS",
@@ -203,7 +204,7 @@
             {
                 "org": {
                     "title": "%s cv.xp.title06",
-                    "org-summary": "cv.org.name%s <a href='http://www.i2c.fr/'>i2C</a>",
+                    "org_summary": "cv.org.name%s <a href='http://www.i2c.fr/'>i2C</a>",
                     "location": "cv.org.place%s France"
                 },
                 "description": "cv.xp.desc06",
@@ -218,7 +219,7 @@
             {
                 "org": {
                     "title": "cv.xp.title07",
-                    "org-summary": "cv.org.name%s ZHENGZHOU",
+                    "org_summary": "cv.org.name%s ZHENGZHOU",
                     "location": "cv.org.place%s China"
                 },
                 "description": "cv.xp.desc07",
@@ -237,7 +238,7 @@
             {
                 "org": {
                     "title": "cv.edu.title01%s%s MASTER_ICPS, ICPS",
-                    "org-summary": "cv.org.name.at%s UPMF_XPAND_URL",
+                    "org_summary": "cv.org.name.at%s UPMF_XPAND_URL",
                     "location": "cv.org.place%s GRENOBLE"
                 },
                 "description": null,
@@ -256,7 +257,7 @@
             {
                 "org": {
                     "title": "cv.edu.title02%s%s LICENCE_SCICO, SCICO",
-                    "org-summary": "cv.org.name.at%s BDX2_XPAND_URL",
+                    "org_summary": "cv.org.name.at%s BDX2_XPAND_URL",
                     "location": "cv.org.place%s BDX"
                 },
                 "description": null,
@@ -275,7 +276,7 @@
             {
                 "org": {
                     "title": "cv.edu.title03%s BAC_S",
-                    "org-summary": "cv.org.name.ats%s TYR",
+                    "org_summary": "cv.org.name.ats%s TYR",
                     "location": "cv.org.place%s France"
                 },
                 "description": null,
@@ -292,7 +293,7 @@
             {
                 "org": {
                     "title": "cv.proj.probe",
-                    "org-summary": "cv.org.collaboration:personal",
+                    "org_summary": "cv.org.collaboration:personal",
                     "location": null
                 },
                 "description": "cv.proj.desc.probe%s%s%s D3js, CI, PROBE_METEO_COM",
@@ -310,7 +311,7 @@
             {
                 "org": {
                     "title": "cv.proj.title01",
-                    "org-summary": "cv.org.collaboration:personal",
+                    "org_summary": "cv.org.collaboration:personal",
                     "location": null
                 },
                 "description": "cv.proj.desc01%s%s CFDICT_URL, CC_BY_NC_SA",
@@ -329,7 +330,7 @@
             {
                 "org": {
                     "title": "cv.proj.title02%s GWT",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc02%s%s%s%s%s%s%s <a href='http://code.google.com/p/animaths/'>AniMaths</a>, X_HTML, JAVA, JS, MATHML, ETC, http://applicationanimaths.appspot.com/",
@@ -347,7 +348,7 @@
             {
                 "org": {
                     "title": "cv.proj.title03",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc03%s%s <a href='/portfolio/2010-flashbook/'>FlashBook</a> XML",
@@ -363,7 +364,7 @@
             {
                 "org": {
                     "title": "cv.proj.title04",
-                    "org-summary": "cv.org.team%s AMA",
+                    "org_summary": "cv.org.team%s AMA",
                     "location": null
                 },
                 "description": "cv.proj.desc04%s%s%s%s <a href='/portfolio/2009-TER-ProjetEYE-LSA/'>', '</a>', Perl, 'http://webu2.upmf-grenoble.fr/LPNC/resources/benoit_lemaire/cogsci09a.pdf",
@@ -382,7 +383,7 @@
                 "org": {
                     "title": "cv.proj.title05%s",
                     //URL},
-                    "org-summary": "cv.org.name%s",
+                    "org_summary": "cv.org.name%s",
                     //UPMF},
                     "location": null
                 },
@@ -400,7 +401,7 @@
             {
                 "org": {
                     "title": "cv.proj.title06",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc06%s%s%s%s <a href='/portfolio/2009-Interface-Utilisateur-ERIM-3.0/'>', XUL, '</a>', ERIM}",
@@ -416,7 +417,7 @@
             {
                 "org": {
                     "title": "cv.proj.title07",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc07%s%s%s <a href='/portfolio/2009-Carville/'> UML",
@@ -431,7 +432,7 @@
             {
                 "org": {
                     "title": "cv.proj.title08%s UX",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc08%s%s%s%s <a href='/portfolio/2009-Google-docs-criteres-Bastien-Scapin/'>, GDOCS, HCI %s, using Bastien-Scapin criteria, for the %s class",
@@ -447,7 +448,7 @@
             {
                 "org": {
                     "title": "cv.proj.title09%s PPT",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc09%s%s <a href='/portfolio/2009-Visual-Impairment-And-Web-Accessibility/'>",
@@ -464,7 +465,7 @@
             {
                 "org": {
                     "title": "cv.proj.title10%s PPT",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc10%s%s <a href='/portfolio/2008-Wikipedia-As-A-Complex-System/'>",
@@ -480,7 +481,7 @@
             {
                 "org": {
                     "title": "cv.proj.title11%s Astar",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc11%s%s <a href='/portfolio/2008-Fifteen-Puzzle/'>%s</a> 15-puzzle IA_XPAND_URL",
@@ -496,7 +497,7 @@
             {
                 "org": {
                     "title": "cv.proj.title12%s ENSC",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc12%s %sMulti-criteria search engine%s for students' projectss database <a href='/portfolio/2008-projet_ue116/'>",
@@ -513,7 +514,7 @@
             {
                 "org": {
                     "title": "cv.proj.title13%s Ant Colony Optimization",
-                    "org-summary": "cv.org.name%s UPMF",
+                    "org_summary": "cv.org.name%s UPMF",
                     "location": null
                 },
                 "description": "cv.proj.desc13%s%s%s <a href='/portfolio/2008-smANTS/'>%s</a> Traveling Salesman Problem, ACO, PHP",
@@ -529,7 +530,7 @@
             {
                 "org": {
                     "title": "cv.proj.title14",
-                    "org-summary": "cv.org.name%s BDX2",
+                    "org_summary": "cv.org.name%s BDX2",
                     "location": null
                 },
                 "description": "cv.proj.desc14%s%s%s%s <a href='/portfolio/2008-ter_scico/'>, Python, SCILAB Study and application development with Python and Scilab.",
@@ -546,7 +547,7 @@
             {
                 "org": {
                     "title": "cv.proj.title15%s CPP",
-                    "org-summary": "cv.org.name%s BDX2",
+                    "org_summary": "cv.org.name%s BDX2",
                     "location": null
                 },
                 "description": "cv.proj.desc15%s%s%s%s <a href='/portfolio/2007-othello/'>, C, CPP",
@@ -561,7 +562,7 @@
             {
                 "org": {
                     "title": "cv.proj.title16",
-                    "org-summary": null,
+                    "org_summary": null,
                     "location": null
                 },
                 "description": "cv.proj.desc16%s <a href='/portfolio/2007-superlight/'>%s</a>Superlight",
