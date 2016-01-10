@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prepare": "mkdir -p dist/scripts dist/styles",
+    "build:script-vendor": "npm run build:prepare; ",
+    "build:script-app": "uglifyjs ./app/**/*.module.js ./app/**/*.service.js ./app/**/*.js --output dist/scripts/app.min.js",
+    "build:script": "npm-run-all build:script-vendor build:script-app",
     "build:style": "node-sass assets/styles/0-start.scss dist/styles/all.css",
     "watch:style": "node-sass -w assets/styles/0-start.scss dist/styles/all.css"
   },
@@ -17,5 +21,22 @@
     "cv"
   ],
   "author": "contact@edouard-lopez.com",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "copyfiles": "0.2.x",
+    "csscritic": "https://github.com/cburgmer/csscritic.git",
+    "jshint": "2.8.x",
+    "mocha": "2.3.x",
+    "node-sass": "^3.4.2",
+    "node-static": "0.7.x",
+    "npm-run-all": "1.4.x",
+    "pageres": "3.0.x",
+    "rimraf": "2.4.x"
+  },
+  "dependencies": {
+    "angularjs": "0.0.1"
+  },
+  "jshintConfig": {
+    "esnext": true
+  }
 }
