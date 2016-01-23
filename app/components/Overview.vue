@@ -12,16 +12,16 @@
         <div class="floatFix">
             <ul id="keywords">
                 <li>
-                    <strong>{{ cv.keywords[1] }}</strong>,
+                    <strong>{{ resume.keywords[1] }}</strong>,
                 </li>
-                <li><strong>{{ cv.keywords[2] }}</strong>
+                <li><strong>{{ resume.keywords[2] }}</strong>
                     &amp; </li>
                 <li>
-                    <strong>{{ cv.keywords[3] }}</strong>
+                    <strong>{{ resume.keywords[3] }}</strong>
                 </li>
             </ul>
             <div class="motivation">
-                {{ cv.motto }}
+                {{ resume.motto }}
             </div>
         </div>
     </section>
