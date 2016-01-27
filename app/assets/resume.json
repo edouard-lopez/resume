@@ -1,6 +1,6 @@
 {
     "user": {
-        "username": "Édouard",
+        "username": "ed8",
         "first_name": "Édouard",
         "last_name": "Lopez",
         "contact": {
@@ -299,7 +299,6 @@
                 "description": "resume.proj.desc.probe%s%s%s D3js, CI, PROBE_METEO_COM",
                 "period": {
                     "start": "2012-10-31",
-                    // fixme
                     "end": "2014-05"
                 },
                 "categories": [
@@ -317,8 +316,7 @@
                 "description": "resume.proj.desc01%s%s CFDICT_URL, CC_BY_NC_SA",
                 "period": {
                     "start": "2010-07-01",
-                    // fixme
-                    "end": "TODAY"
+                    "end": "TODAY // fixme"
                 },
                 "categories": [
                     "cog",
@@ -381,10 +379,8 @@
             },
             {
                 "org": {
-                    "title": "resume.proj.title05%s",
-                    //URL},
-                    "org_summary": "resume.org.name%s",
-                    //UPMF},
+                    "title": "resume.proj.title05%s //URL",
+                    "org_summary": "resume.org.name%s //UPMF",
                     "location": null
                 },
                 "description": "resume.proj.desc05%s%s%s%s%s%s <a href='/portfolio/2009-mastermind/'> PHP %s rewriting URL",
