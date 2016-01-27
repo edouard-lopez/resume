@@ -1,6 +1,6 @@
 <template>
   <article id="resume" class="hresume">
-    <tags></tags>
+    <tags :tags="resume.metadata.tags"></tags>
     <overview></overview>
     <experiences></experiences>
     <projects></projects>
