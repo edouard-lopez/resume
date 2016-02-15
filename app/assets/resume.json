@@ -3,6 +3,8 @@
         "username": "ed8",
         "first_name": "Édouard",
         "last_name": "Lopez",
+        "sex": "male",
+        "relationship": "couple",
         "contact": {
             "email": "cv+me@edouard-lopez.com",
             "phone_mobile": "+33(0).760.069.730",

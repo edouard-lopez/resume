@@ -7,7 +7,7 @@
     <educations></educations>
     <hobbies></hobbies>
     <whoami></whoami>
-    <contact></contact>
+    <contact :user="resume.user"></contact>
   </article>
 </template>
 
