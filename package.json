@@ -42,7 +42,7 @@
     "vue-hot-reload-api": "^2.0.6",
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^10.0.2",
-    "vue-style-loader": "^1.0.0",
+    "vue-style-loader": "^2.0.0",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   }
