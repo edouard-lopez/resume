@@ -101,8 +101,7 @@ skills:
   level: 70
 - name: Docker
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+knowledge: 🚲 Cyclist and surfer 🏄‍♂️. Lead dev on pure-fish, UX on lesspass
 
 projects:
 - name: best-resume-ever
@@ -133,6 +132,8 @@ contact:
   city: ~Bayonne
   website: edouard-lopez
   github: edouard-lopez
+  avatar: https://avatars.githubusercontent.com/u/1212392
+  twitter: edouard_lopez
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
