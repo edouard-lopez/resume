@@ -1,0 +1,25 @@
+/* #*/ export const PUBLIC_ARTIFACTS = `
+---
+public_artifacts:
+  - name: "Progressive Web Applications (PWA): A primer"
+    website: https://tech.people-doc.com/progressive-web-applications-primer.html
+    used: javascript, progressive-web-apps, frontend
+    timeperiod: Apr 2018
+    description: >
+      A website which looks and behaves exactly like a native mobile app, which means that it can be added to the home screen on a smartphone, send push notifications, access the device’s hardware and - most importantly - work offline.
+
+  - name: Talk about Lesspass at RMLL 2017
+    website: https://prog2017.rmll.info/programme/securite-entre-transparence-et-opacite/lesspass-gestionnaire-de-mot-de-passe-open-source?lang=en
+    used: javascript, vue.js, docker, python, command-line-interface, user-experience
+    timeperiod: Jul 2017
+    description: >
+      Presentation of the project at the French Libre Software Meeting (aka Rencontres Mondiales du Logiciel Libre) 2017
+      Speaker(s) : Edouard Lopez, Guillaume Vincent
+
+  - name: "Les Coding Goûters c'est quoi ? Présentation lors de la journée « Libre à Vous »"
+    website: https://www.youtube.com/watch?v=tcsHo8ftclE
+    used: mit-scratch
+    timeperiod: Dec 2013
+    description: >
+      Présentation des Coding Goûters Bordeaux, à la journée professionnelle « Libre à Vous », par Thomas Le Floc'H et Édouard Lopez.
+`

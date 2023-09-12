@@ -1,0 +1,138 @@
+/* #*/ export const PERSON = `
+# Any fields left unchanged, please delete so your resume is fully yours!
+---
+name:
+  first: Édouard
+  middle:
+  last: Lopez
+about: UX Develover. Software craftsman. Contributor to the commons. Community facilitator.
+        Cyclist and surfer. Lead dev on pure-fish, UX on lesspass
+
+birth:
+  year: 1985
+  location: France
+
+experience:
+  - company: tolk (The Chatbot Factory)
+    position: Lead Dev Fullstack
+    timeperiod: Feb 2021 → Current
+    used: reactjs, react-testing-library, github-actions, travis-ci, cypress, end-to-end, styled-components, jestjs, typescript
+    description: >
+      - Automate manual process (testing) in order to improve the product quality
+      - Open architecture to new evolution while guaranteeing existing feature are maintained
+      - Spread best practices and testing approach to the team
+
+  - company: Wazo Inc
+    position: Frontend Software Engineer (remote)
+    timeperiod: Apr 2019 → Oct 2019
+    used: reactjs, react-admin, cypress, jestjs, unit-testing, e2e-testing, acceptance-testing, jenkins-pipeline
+    description: >
+      - Improving code quality with TDD
+      - Elaborating testing strategies for (unit/component/acceptance tests)
+      - Guiding teammate toward best practices through code-review, pair-programming, guidelines, etc.
+      - Extending features to showcase our new platform
+
+  - company: Coaxis International
+    position: DevOps/Frontend/Backend Freelancer
+    timeperiod: Oct 2018 → Oct 2018
+    used: docker, vue.js, flask, flask-restful, remote-server, ssh-tunnel, printing, travis-ci, cypress, unit-testing, integration-testing, e2e-
+    description: >
+      - testing
+      - Evolve the existing application
+      - Increase test coverage and continuous integration adoption*
+      - Migrate legacy code using TDD approach
+      - Advocate Agile methodologies as a senior agilist
+
+  - company: PeopleDoc
+    position: Frontend engineer (Remote)
+    timeperiod: Jul 2017 → Mar 2018
+    used: javascript, ember.js, eslint, acceptance-testing, shell, handlebars.js, ecmascript-6, tdd
+    description: >
+      - Lead migration to modern tooling
+      - Improve code quality by introducing new practices (TDD)
+      - Developing user testing culture
+
+  - company: Akema
+    position: DevOps Software Engineer JS/Python
+    timeperiod: Jul 2014 → Jul 2017
+    used: tdd, yarn, ava, python, django, vue.js, flask, docker, docker-compose, ansible, bash, shell, node.js, bootstrap-4, semantic-ui, rest, angularjs, git
+    description: >
+      - Frontend practices and products R&D, Django and DevOps projects lead.
+      - TDD development with Python, JS, Bash.
+
+  - company: Freelance
+    position: Web Stack Developer
+    timeperiod: Jul 2014 → Nov 2014
+    used: d3.js, leaflet, gulp, topojson, opendata, yeoman, makefile, php, bash, trickle
+    description: >
+      - Developed a compression technology for print stream, similar to ThinPrint, based on open-source components.
+      - Various Dataviz project.
+
+  - company: AJLSM
+    position: Software Engineer
+    timeperiod: Oct 2011 → Mar 2013
+    used: xml, xslt-2.0, xpath, javascript, mootools, debian, centos, redhat, dublin-core
+    description: >
+      - Development in a strong XML context and JAVA technologies (Cocoon).
+      - Design XSLT stylesheet to generate EAD, METS and others XML documents for Pleade software (http://pleade.com/). I administrate Debian, Ubuntu and CentOS servers, script in bash language.
+
+  - company: TIMC-IMAG Laboratory (Grenoble)
+    position: Master 1 Internship
+    timeperiod: May 2009 → Jun 2009
+    used: perl, mysql, LSA
+    description: >
+      - Internship on Web Foraging and model to simulate web users' eye movements, in the team AMA from TIMC-IMAG.
+
+# skill level goes from 0 to 100
+skills:
+- name: HTML5
+  level: 99
+- name: CSS3
+  level: 95
+- name: JavaScript
+  level: 97
+- name: Node.js
+  level: 93
+- name: Angular 2
+  level: 60
+- name: TypeScript
+  level: 80
+- name: ES.Next
+  level: 70
+- name: Docker
+  level: 99
+knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+  (English and Klingon).
+
+projects:
+- name: best-resume-ever
+  platform: Vue
+  timeperiod: February 2016
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+  url: https://github.com/salomonelli/best-resume-ever
+
+# optional, not all resume templates have hobbies included
+hobbies:
+- name: Video Games
+  iconClass: fa fa-gamepad
+  url: https://example.com
+
+- name: Drawing
+  iconClass: fa fa-pencil
+  url: https://example.com
+
+contributions:
+- name: best-resume-ever
+  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+  url: https://github.com/salomonelli/best-resume-ever
+
+contact:
+  email: contact+cv@edouard-lopez.com
+  phone: +33 7 60 06 97 30
+  street:
+  city: ~Bayonne
+  website: edouard-lopez
+  github: edouard-lopez
+# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
+lang: en
+`

@@ -1,0 +1,53 @@
+/* #*/ export const NGOS = `
+---
+ngo:
+  - name: "Vikidia: Wikipedia in Middle School"
+    organization: NGO
+    used: wikipedia, open-source
+    timeperiod: Oct 2016
+    description: >
+      Weekly workshops with middle school student to educate them about web technologies, collaborative editing and open-source mindset.
+
+  - name: Coding Gouter Bordeaux
+    organization: NGO
+    used: mit-scratch
+    timeperiod: Jun 2016
+    description: >
+      Empower user to discover and learn to code. Lead events organizer and social network communication. Since sept. 2013
+
+  - name: Django Girls Bordeaux
+    organization: NGO
+    used: django
+    timeperiod: Oct 2015
+    description: >
+      Recurrent events organizer and coach to empower women to take on tech career.
+      Community building and social network communications.
+
+  - name: Install Party
+    organization: NGO
+    timeperiod: 2013 → 2015
+    description: >
+      Lead events organizers
+      community buildings
+
+  - name: BordeauxJS
+    organization: NGO
+    used: javascript
+    timeperiod: 2014 → 2018
+    description: >
+      Events organizer
+
+  - name: CLI workshop @ Hackerspace
+    organization: NGO
+    timeperiod: 2014
+    description: >
+      Organized weekly events to build up the local community.
+
+  - name: Wikipedia local group
+    organization: NGO
+    used: wikipedia
+    timeperiod: 2013 → 2016
+    description: >
+      Events organizer
+      community building
+`
