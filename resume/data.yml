@@ -1,6 +1,7 @@
 /* #*/ export const PERSON = `
 # Any fields left unchanged, please delete so your resume is fully yours!
 ---
+# yamllint disable rule:line-length
 name:
   first: Édouard
   middle:
@@ -13,9 +14,23 @@ birth:
   location: France
 
 experience:
+  - company: ManoMano
+    position: Staff Quality Engineer
+    timepediod: Sept 2021 → Current
+    used: devcontainer, testkube, pact, contract-testing, gitlab-ci, CI, playwright, datadog, docker
+    description: >
+      - Improve the quality of the product by introducing new testing practices
+      - Spread best practices and testing approach to the team
+      - Automate manual process (testing) in order to improve the product quality
+      - Contribute to the implementation of tools for the development environment
+      - Design and maintenance of the CI and CD pipelines
+      - Elaborate training and documentation for recommended practices and tool usage
+      - Onboard teams and kickstart their tool adoption
+      - Tech watch and R&D on new tools and practices
+
   - company: tolk (The Chatbot Factory)
     position: Lead Dev Fullstack
-    timeperiod: Feb 2021 → Current
+    timeperiod: Feb 2021 → July 2021
     used: reactjs, react-testing-library, github-actions, travis-ci, cypress, end-to-end, styled-components, jestjs, typescript
     description: >
       - Automate manual process (testing) in order to improve the product quality
@@ -101,7 +116,7 @@ skills:
     level: 70
   - name: Docker
     level: 99
-knowledge: 🚲 Cyclist and surfer 🏄‍♂️. Lead dev on pure-fish, UX on lesspass
+
 
 # optional, not all resume templates have hobbies included
 hobbies:
@@ -113,10 +128,10 @@ hobbies:
     iconClass: fa fa-pencil
     url: https://example.com
 
-contributions:
-  - name: best-resume-ever
-    description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-    url: https://github.com/salomonelli/best-resume-ever
+# contributions:
+#   - name: best-resume-ever
+#     description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+#     url: https://github.com/salomonelli/best-resume-ever
 
 contact:
   email: contact+cv@edouard-lopez.com
@@ -127,6 +142,8 @@ contact:
   github: edouard-lopez
   avatar: https://avatars.githubusercontent.com/u/1212392
   twitter: edouard_lopez
+knowledge: 🚲 Cyclist and surfer 🏄‍♂️. Lead dev on pure-fish, UX on lesspass
+
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
