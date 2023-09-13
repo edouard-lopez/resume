@@ -13,6 +13,5 @@ GeckoChildCrash*
 electroshot-config.json
 tmpaddon*
 docs/*
-build
 pdf/*
 !.gitkeep
