@@ -1,7 +1,9 @@
 import yaml from 'js-yaml';
+
 import { PERSON } from '../../resume/data.yml';
-import { PROJECTS } from '../../resume/projects.yml';
+import { EXPERIENCES } from '../../resume/experiences.yml';
 import { NGOS } from '../../resume/ngos.yml';
+import { PROJECTS } from '../../resume/projects.yml';
 import { PUBLIC_ARTIFACTS } from '../../resume/public-artifacts.yml';
 import { terms } from '../terms';
 
@@ -13,6 +15,7 @@ function getVueOptions(name) {
       return {
         person: {
           ...yaml.load(PERSON),
+          ...yaml.load(EXPERIENCES),
           ...yaml.load(NGOS),
           ...yaml.load(PROJECTS),
           ...yaml.load(PUBLIC_ARTIFACTS),
