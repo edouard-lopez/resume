@@ -7,6 +7,7 @@ const lang = {
   education: 'Education',
   skills: 'Skills',
   projects: 'Projects',
+  open_source: 'Open Source',
   contributions: 'Contributions',
   about: 'About me',
   ngo: 'NGO',

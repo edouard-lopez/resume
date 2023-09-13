@@ -158,20 +158,26 @@
 
         <div v-if="person.projects" class="section">
           <div class="section-headline">
-            <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
+            <i class="section-headline__icon material-icons">code</i>{{ lang.open_source }}
           </div>
 
           <div class="section-content-grid">
-            <a v-for="(project, index) in person.projects" :key="index" class="section-content__item-grid"
-              :class="{ link: project.url !== undefined }" :href="project.url">
-              <span class="section-content__header"> {{ project.name }} </span>
+            <div v-for="(project, index) in person.projects" :key="index" class="section-content__item-grid">
+              <a class="section-content__header" :href="project.url" :class="{ link: project.url !== undefined }">
+                {{ project.name }}
+              </a>
               <span class="section-content__subheader">{{
                 project.platform
               }}</span>
               <span class="section-content__text">
                 {{ project.description }}
               </span>
-            </a>
+              <div class="section-content__subtext">
+                <span v-for="(tag, index) in project.used.split(',')" :key="index" class="tag">{{ tag
+                }}</span>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -219,14 +225,21 @@ export default Vue.component(name, getVueOptions(name));
 @picture-offset: 35px;
 @base-padding: 30px;
 @left-column-width: 240px;
+@link: #03a9f4;
+@link-hover: #35baf6;
+@link-visited: #673ab7;
 
 .link {
-  color: inherit;
+  color: @link;
   cursor: pointer;
   text-decoration-line: none;
 
+  &:hover {
+    color: @link-hover;
+  }
+
   &:visited {
-    color: inherit;
+    color: @link-visited;
   }
 }
 
@@ -358,8 +371,14 @@ export default Vue.component(name, getVueOptions(name));
     }
 
     &--light {
-      font-size: 12px;
+      font-size: 10px;
     }
+  }
+
+  &__subtext {
+    font-size: 10px;
+    color: var(--lt-color-gray-400);
+    font-style: italic;
   }
 
   &__plain {
@@ -371,11 +390,19 @@ export default Vue.component(name, getVueOptions(name));
     flex: 1 1 0;
     margin-bottom: 5px;
     padding-right: 5px;
+    min-width: 13vw;
   }
 
   &--plain {
     padding: 0;
   }
+}
+
+.tag {
+  display: inline-block;
+  padding: 1px;
+  margin: 1px;
+  border: 1px solid var(--lt-color-gray-200);
 }
 
 .section-content-grid {

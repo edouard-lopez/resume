@@ -1,14 +1,15 @@
 /* #*/ export const PROJECTS = `
 ---
 projects:
-  - name: Pure (fish)
+  - name: Pure Prompt (Fish Shell)
     url: https://github.com/rafaelrinaldi/pure
     used: shell, fish, docker, unit-testing, continuous-integration, fishtape
+    topics: DX
     timeperiod: Dec 2015 → Current
     description: >
-      +650★ Core maintainer of Fish shell implementation of the pure prompt.
+      +1 100K★ Core maintainer of Fish shell implementation of the pure prompt.
       Team coordination
-      Project planning
+      Project roadmap
       Setup QA (tests, CI)
       Testing existing code
       Review/Merge PR
@@ -16,23 +17,25 @@ projects:
   - name: lesspass-powershell
     url: https://github.com/edouard-lopez/lesspass-powershell
     used: powershell, powershell-core, pester, travis-ci, unit-testing, continuous-integration
+    topics: security
     timeperiod: Jan 2019 → Aug 2019
     description: >
-      Exploring Powershell and its ecosystem by re-implementing Lesspass CLI (Python)
-      Core developer.
+      Exploring Powershell and its ecosystem by re-implementing Lesspass CLI.
 
   - name: "LessPass: Stateless Password Manager"
     url: https://github.com/lesspass/lesspass/
     used: vuejs2, user-experience, passwords, docker
+    topics: security
     timeperiod: Dec 2015 → Jul 2019
     description: >
-      +4400★ UX lead and community support
+      +5 500★ UX lead and community support
       Manage your passwords directly from your browser LessPass derives a site, a login and a master password to generate a
       unique password. You don't need to sync your password vault across every device.
 
-  - name: Pure (Python)
+  - name: Pure Prompt (Python)
     url: https://github.com/edouard-lopez/pure
     used: python, pytest, docker, travis-ci, pypi, package, continuous-integration
+    topics: DX
     timeperiod: Feb 2019 → May 2019
     description: >
       Core developer, in charge of:
@@ -47,6 +50,7 @@ projects:
   - name: "parlr/lsf: French Sign Language"
     url: https://github.com/parlr/lsf
     used: vuejs2, webpack, bash, bulma, progressive-web-apps
+    topics: LSF
     timeperiod: Nov 2017 → May 2019
     description: >
       A Progressive Web App to learn LSF (French Sign Language)
@@ -55,6 +59,7 @@ projects:
   - name: Open Printing Tunnel
     url: https://github.com/edouard-lopez/open-printing-tunnel
     used: django, flask, docker, docker-compose, docker-py, daemon, bash, makefile, ssh, autossh, vue.js, webpack, express, api, rest, flask-restful, nginx, snmp, telnet, bootstrap-4, cypress
+    topics: infra
     timeperiod: Jul 2014 → Nov 2018
     description: >
       Docker-based solution to manage compression channel from TSE instance (in datacenter) to a remote printer.
@@ -71,34 +76,38 @@ projects:
   - name: Hanzi-Pinyin-Font
     url: https://github.com/edouard-lopez/Hanzi-Pinyin-Font
     used: node.js, ava, yarn, babel, webpack, svg, fonts
+    topics: chinese
     timeperiod: Mar 2012 → Mar 2018
     description: >
       Project to create a Chinese font displaying Hanzi (汉字) characters followed by transliteration/pronunciation (Pīnyīn)
 
-  - name: Layout-linter @ PeopleDoc
-    url: https://github.com/peopledoc/layout-linter
-    used: yarn, rollupjs, ava, babeljs
-    timeperiod: Dec 2017 → Feb 2018
-    description: >
-      Design-guidelines as code evangelist. I created the proof-of-concept.
+  # - name: Layout-linter @ PeopleDoc
+  #   url: https://github.com/peopledoc/layout-linter
+  #   used: yarn, rollupjs, ava, babeljs
+  #   timeperiod: Dec 2017 → Feb 2018
+  #   description: >
+  #     Design-guidelines as code evangelist. I created the proof-of-concept.
 
   - name: ESLint config @ PeopleDoc
     url: https://github.com/peopledoc/eslint-config-peopledoc
     used: eslint, ember.js, ecmascript-5, ecmascript-6, prettier
+    topics: DX
     timeperiod: Aug 2017 → Feb 2018
     description: >
       This repo purpose is to help enforce internal conventions and introduce new practices and tooling to our stack (vanilla JS/ES6, ES5, EmberJS).
 
   - name: Backup Docker to FTP
     url: https://github.com/edouard-lopez/backup-docker-to-ftp
-    used: docker, bash, bats-core, ftp
+    used: TDD, docker, bash, bats-core, ftp
+    topics: infra
     timeperiod: Mar 2017 → Jun 2017
     description: >
       TDD project to easily backup your docker container data to a FTP server.
 
   - name: record-gif.sh
     url: https://github.com/edouard-lopez/record-gif.sh
-    used: bash, shell, byzanz, linux, user-experience
+    used: bash, shell, byzanz, linux
+    topics: DX
     timeperiod: Oct 2016 → Oct 2016
     description: >
       A lame GUI for byzanz, improved the user experience (mouse-selectable area, record progress bar, replay-able recording).
@@ -106,19 +115,21 @@ projects:
   - name: collecte-verre-cub
     url: https://github.com/edouard-lopez/collecte-verre-cub
     used: javascript, openstreetmap, leaflet, gulp, gdal, makefile, awk
+    topics: map
     timeperiod: Jul 2014 → Jul 2014
     description: >
       Points de collecte du verre dans la CUB (Bordeaux, Pessac, Mérignac, Bègles, etc.)
 
-  - name: parlr-api-doc
-    url: https://github.com/edouard-lopez/parlr-api-doc
-    used:timeperiod: Mar 2014 → Jun 2014
-    description: >
-      Parlr API is database of rare languages-to-French dictionaries to help teach and learn rares and distants languages.
+  # - name: parlr-api-doc
+  #   url: https://github.com/edouard-lopez/parlr-api-doc
+  #   used:timeperiod: Mar 2014 → Jun 2014
+  #   description: >
+  #     Parlr API is database of rare languages-to-French dictionaries to help teach and learn rares and distants languages.
 
   - name: ECV-IJBA
     url: https://github.com/edouard-lopez/ECV-IJBA
     used: d3.js, data-visualization
+    topics: map
     timeperiod: Apr 2014 → May 2014
     description: >
       ECV-IJBA is dataviz project with students from the ECV and IJBA shcools to map trash collection point and itineraries.
@@ -126,21 +137,22 @@ projects:
   - name: yeoman-zsh-plugin
     url: https://github.com/edouard-lopez/yeoman-zsh-plugin
     used: shell, yeoman, oh-my-zsh
+    topics: DX
     timeperiod: Jun 2013 → Dec 2013
     description: >
       Yeoman plugin for Oh My ZSH, compatible with yeoman version =1.0 (options and command auto-completion).
 
-  - name: xml-translator
-    url: https://github.com/edouard-lopez/xml-translator
-    used: shell, xml
-    timeperiod: Jun 2013 → Jun 2013
-    description: >
-      XML-translator is a tiny Bash hack to demonstrate how XMLStarlet can be use
-
+  # - name: xml-translator
+  #   url: https://github.com/edouard-lopez/xml-translator
+  #   used: shell, xml
+  #   timeperiod: Jun 2013 → Jun 2013
+  #   description: >
+  #     XML-translator is a tiny Bash hack to demonstrate how XMLStarlet can be use
 
   - name: monitor-http-server
     url: https://github.com/edouard-lopez/monitor-http-server
     used: shell, curl, http-status-codes, monitoring
+    topics: infra
     timeperiod: Feb 2013 → Apr 2013
     description: >
       Simple script to monitor if servers are responding (status 200) or not
@@ -148,19 +160,23 @@ projects:
   - name: pdf2djvu-ocr
     url: https://github.com/edouard-lopez/pdf2djvu-ocr
     used: shell, pdf, djvu, tesseract
+    topics: OCR
     timeperiod: Feb 2013 → Mar 2013
     description: >
       Script to help convert from scanned PDF to DjVu+OCR. Dependencies: pdfsandwich tesseract pdf2djvu
 
   - name: animaths
     url: https://code.google.com/p/animaths/
-    used:timeperiod: 2009 → 2010
+    used: GWT
+    topics: education
+    timeperiod: 2009 → 2010
     description: >
       An interactive web environment for direct mathematical objects manipulation and transformation.
 
   - name: ajax-browser
     url: https://code.google.com/p/ajax-browser/
     used: php, javascript, ajax, file-browser
+    topics: infra
     timeperiod: 2005 → 2009
     description: >
       AjaxBrowser is a web-based file manager, it use exclusively PHP/HTTP protocol.
