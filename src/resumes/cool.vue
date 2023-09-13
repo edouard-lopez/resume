@@ -280,7 +280,7 @@ export default Vue.component(name, getVueOptions(name));
 
   &__left,
   &__right {
-    height: 100%;
+    // height: 100%;
     padding: @base-padding;
   }
 
