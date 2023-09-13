@@ -390,7 +390,7 @@ export default Vue.component(name, getVueOptions(name));
     flex: 1 1 0;
     margin-bottom: 5px;
     padding-right: 5px;
-    min-width: 13vw;
+    min-width: 10vw;
   }
 
   &--plain {
