@@ -85,38 +85,38 @@ experience:
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
+  - name: HTML5
+    level: 99
+  - name: CSS3
+    level: 95
+  - name: JavaScript
+    level: 97
+  - name: Node.js
+    level: 93
+  - name: Angular 2
+    level: 60
+  - name: TypeScript
+    level: 80
+  - name: ES.Next
+    level: 70
+  - name: Docker
+    level: 99
 knowledge: 🚲 Cyclist and surfer 🏄‍♂️. Lead dev on pure-fish, UX on lesspass
 
 # optional, not all resume templates have hobbies included
 hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+  - name: Video Games
+    iconClass: fa fa-gamepad
+    url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+  - name: Drawing
+    iconClass: fa fa-pencil
+    url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+  - name: best-resume-ever
+    description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
+    url: https://github.com/salomonelli/best-resume-ever
 
 contact:
   email: contact+cv@edouard-lopez.com
