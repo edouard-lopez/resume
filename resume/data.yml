@@ -103,13 +103,6 @@ skills:
   level: 99
 knowledge: 🚲 Cyclist and surfer 🏄‍♂️. Lead dev on pure-fish, UX on lesspass
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
 # optional, not all resume templates have hobbies included
 hobbies:
 - name: Video Games
