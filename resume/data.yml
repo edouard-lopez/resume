@@ -16,22 +16,24 @@ birth:
 
 # skill level goes from 0 to 100
 skills:
-  - name: HTML5
-    level: 99
-  - name: CSS3
-    level: 95
-  - name: JavaScript
-    level: 97
-  - name: Node.js
-    level: 93
-  - name: Angular 2
-    level: 60
-  - name: TypeScript
-    level: 80
-  - name: ES.Next
-    level: 70
-  - name: Docker
-    level: 99
+  - name: Open source
+    level: 100
+  - name: Testing
+    level: 100
+  - name: Frontend
+    level: 100
+  - name: User eXperience
+    level: 100
+  - name: Accessibility
+    level: 100
+  - name: Dev eXperience
+    level: 100
+  - name: Continuous Integration
+    level: 100
+  - name: Continuous Delivery
+    level: 100
+  - name: Craftmanship
+    level: 100
 
 
 # optional, not all resume templates have hobbies included
