@@ -225,9 +225,9 @@ export default Vue.component(name, getVueOptions(name));
 @picture-offset: 35px;
 @base-padding: 30px;
 @left-column-width: 240px;
-@link: #03a9f4;
+@link: @banner-color;
 @link-hover: #35baf6;
-@link-visited: #673ab7;
+@link-visited: @accent-color;
 
 .link {
   color: @link;
